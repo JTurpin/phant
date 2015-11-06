@@ -13,6 +13,6 @@ All credit goes to the sparkfun team for creating such a useful utility. I'm jus
 
 ##To Run
 
-    docker run -d -p 8080:8080 -p 8081:8081 -v phant_streams:/phant_streams jturpin/phant
+    docker run -d -p 8080:8080 -p 8081:8081 -v /data/phant_streams/:/phant_streams/ jturpin/phant
     
     
