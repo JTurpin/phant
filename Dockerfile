@@ -1,6 +1,6 @@
 FROM iojs
 
-MAINTAINER Jim Turpin
+MAINTAINER Jim Turpin <jim@jimturpin.com>
 
 RUN npm install -g phant
 
